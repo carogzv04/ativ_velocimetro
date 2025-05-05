@@ -1,16 +1,33 @@
-# velocimetro
+# Velocímetro & Odómetro 📱🛰️
 
-A new Flutter project.
+**Autores**
+- Carolina González
+- Natalie Fernández
+- Nicolás Lara
 
-## Getting Started
+Este proyecto Flutter es un **velocímetro y odómetro** desarrollado en equipo, que utiliza el **GPS del dispositivo móvil** para mostrar en tiempo real:
 
-This project is a starting point for a Flutter application.
+- Velocidad actual (km/h)
+- Distancia recorrida (km)
+- Tiempo de desplazamiento
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologías y Paquetes Usados
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **[Flutter](https://flutter.dev/)**
+- **[Provider](https://pub.dev/packages/provider)** – para gestión de estado
+- **[geolocator](https://pub.dev/packages/geolocator)** – para obtener ubicación, velocidad y calcular distancia
+- **[wakelock](https://pub.dev/packages/wakelock)** (opcional) – para mantener la pantalla encendida
+- **[intl](https://pub.dev/packages/intl)** – para formatear números y tiempos (opcional)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✅ Funcionalidades
+
+- 🛰️ Usa el **GPS en tiempo real**
+- 📈 Muestra **velocidad actual** en km/h
+- 🧭 Muestra **distancia recorrida** (odómetro) en km
+- ⏱️ Muestra el **tiempo total de desplazamiento**
+- 🔁 Botón para **resetear todos los datos** (velocidad, distancia y tiempo)
+- 👁️ Interfaz accesible con etiquetas para lectores de pantalla
+- 🌗 Compatible con **modo claro y oscuro**
+- 🔐 Maneja automáticamente los **permisos de ubicación**
+
+
